@@ -55,29 +55,31 @@
     </div>
     
 
-    <div class="p-5">
-      <div class="mb-4">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
+    <div class="wrapper d-flex">
+      <div class="p-5 col-6">
+        <div class="mb-4">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control border-success" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        
+        <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+          Dangerous heading
+        </div>
+        
+        <div class="p-3 bg-info bg-opacity-10 border border-info border-rounded-start rounded-4">
+          Changing border color and width
+        </div>
       </div>
-      
-      <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
-        Dangerous heading
-      </div>
-      
-      <div class="p-3 bg-info bg-opacity-10 border border-info border-rounded-start rounded-4">
-        Changing border color and width
-      </div>
-    </div>
-
-    <div class="card m-5">
-      <div class="card-header">
-        Featured
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  
+      <div class="card m-5 col-5 row-gap-2">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     </div>
 
@@ -117,6 +119,25 @@
             <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="m-5">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+        <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
       </div>
     </div>
     
